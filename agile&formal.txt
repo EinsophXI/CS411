@@ -1,0 +1,46 @@
+Complete these user stories:
+
+User Story #1
+    As a vanilla git power-user that has never seen GiggleGit before, I want to be able to apply my previous knowledge of git to GiggleGit so that transitioning to it will be smoother.
+User Story #2
+    As a team lead onboarding an experienced GiggleGit user, I want to assign roles to team members so that they can access relevant resources and tools in GiggleGit.
+
+
+Create a third user story, one task for this user story, and two associated tickets.
+
+User Story #3
+As a project manager, I want the ability to monitor/track merges so that I can ensure projects stay on schedule.
+    -Task: Create a log to track merge activity.
+        -Ticket #1: Log Activity
+            -Shows what was merged, when the merge was made and by whom.
+            -Store Log data to see merge history
+        -Ticket #2: Filters
+            -implement filters in order to locate logs faster and easier.
+            -Be able to sort by dates or specific merge status
+This is not a user story. Why not? What is it?
+As a user I want to be able to authenticate on a new machine 
+
+This is a feature request rather than a user story because it doesn't describe a benefit towards the user and what the change will do.
+
+
+Formal Requirements
+CodeChuckle is introducing a new diff tool: SnickerSync—why merge in silence when you can sync with a snicker? The PMs have a solid understanding of what it means to "sync with a snicker" and now they want to run some user studies. Your team has already created a vanilla interface capable of syncing with the base GiggleGit packages.
+
+
+List one goal and one non-goal
+
+Goal: Create a step-by-step merge process that snickers to allow for more entertainment without disrupting productivity and maintains its functions.
+
+Non-Goal: Allow for branches and rollbacks in addition to the merging and syncing.
+
+
+Create two non-functional requirements.
+For each non-functional requirement, create two functional requirements (for a grand total of four functional requirements). 
+
+Non-functional #1: Accessibility Controls
+    Functional #1: Authentication tokens in order to access SnickerSync so that only people within their roles can modify/manage.
+    Functional #2: Ability to look at project history but cannot be modified until approved.
+
+Non-functional #2: Reliable Usage
+    Functional #1: Have a backup server in case primary server crashes, reducing downtime for the users.
+    Functional #2: Backup logs that store merges and snickers in order to prevent data loss in case the system crashes or runs into a different issue.
